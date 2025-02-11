@@ -23,8 +23,10 @@
 			}
 
 			Tantargy tantargy = new Tantargy("Matematika", 14);
+			tantargy.TantargyAdatok();
 			tanar.HozzaadTantargy(tantargy);
 			tantargy=new Tantargy("Fizika", 11);
+			tantargy.TantargyAdatok();
 			tanar.HozzaadTantargy(tantargy);
 			tanar.OktatottTantargyak();
 			osztaly.OsszesDiakKilistazas();

@@ -22,7 +22,8 @@ namespace iskola_oop
             if (diakok.Count<=25)
             {
 				diakok.Add(diak);
-			}
+                Console.WriteLine($"Sikeresen hozzáadva a(z) {Nev} osztályhoz.");
+            }
             else
             {
                 Console.WriteLine("Az adott osztály megtelt.");
